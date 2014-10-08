@@ -1,4 +1,5 @@
 ActiveAdmin.register Campaign do
+  permit_params :title, :description, :fixed_payment_amount
 
 
   # See permitted parameters documentation:
